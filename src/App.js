@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react'
+import Header from './components/ui/Header'
+import CharacterGrid from './components/characters/CharacterGrid'
+import Search from './components/ui/Search'
+import players from './components/players'
 import './App.css';
 
-function App() {
+const App=()=> {
+  const [items, setItems] = useState([])
+  const [isLoading,setIsLoading]=useState(true)
+
+  useEffect(() => {
+      console.log(players)
+      setItems(players)
+      setIsLoading(false)
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Header />
+      <Search  />
+      <CharacterGrid isLoading={isLoading} items={items} />
     </div>
   );
 }
