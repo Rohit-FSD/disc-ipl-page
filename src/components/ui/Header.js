@@ -11,13 +11,14 @@ const Header = () => {
       <select>
         <option value="">RCB</option>
         <option value="">CSK</option>
+        <option value="">SRH</option>
+        <option value="">MI</option>
+        <option value="">RR</option>
+        <option value="">KXIP</option>
       </select>
       <span className='custom-arrow'></span>
     </div>
-   
-    
     </header>
-    
   )
 }
 
