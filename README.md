@@ -1,3 +1,6 @@
+<h1>CALCULATED PAGE LOAD TIME USING <B>CHROME DEVTOOLS</B></h1>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
