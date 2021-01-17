@@ -1,5 +1,7 @@
 <h3>CALCULATED PAGE LOAD TIME USING <B>CHROME DEVTOOLS</B></h3>
 
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 
 # Getting Started with Create React App
 
