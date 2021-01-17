@@ -1,6 +1,6 @@
 <h3>CALCULATED PAGE LOAD TIME USING <B>CHROME DEVTOOLS</B></h3>
 
-
+![](src/img/test3.png)
 
 
 # Getting Started with Create React App
