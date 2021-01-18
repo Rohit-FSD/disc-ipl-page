@@ -10,6 +10,7 @@
 
 <h6>ELSE I WOULD HAVE USED LAZY LOADING METHOD: <p>which load the images at the moment of need instead of loading them while the app’s page is loading.</p></h6>
 
+<hr>
 
 # Getting Started with Create React App
 
