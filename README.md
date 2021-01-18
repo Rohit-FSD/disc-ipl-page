@@ -2,6 +2,12 @@
 
 ![](src/img/test3.png)
 
+<h3>TO INCREASE THE SPEED OF PAGE LOAD TIME:</h3>
+
+<p>SINCE THIS WEB APP DOESN'T CONTAIN MUCH IMAGES, I HAVEN'T USED ANY TECHNIQUE TO IMPROVE THE PAGE LOAD TIME</p>
+
+<h6>ELSE I WOULD HAVE USED LAZY LOADING METHOD: <p>which load the images at the moment of need instead of loading them while the app’s page is loading.</p></h6>
+
 
 # Getting Started with Create React App
 
